@@ -6,11 +6,11 @@
   "name": "Carpet Addon",
   "description": "A template for a carpet extension Mod",
   "authors": [
-    "RubixDev"
+    "Bobisawesome07"
   ],
   "contact": {
-    "homepage": "https://github.com/RubixDev/CarpetAddonTemplate",
-    "sources": "https://github.com/RubixDev/CarpetAddonTemplate"
+    "homepage": "https://github.com/Bobisawesome07/Hightech-carpet-addon",
+    "sources": "https://github.com/Bobisawesome07/Hightech-carpet-addon"
   },
 
   "license": "CC0-1.0",
@@ -26,10 +26,10 @@
   ],
 
   "depends": {
-    "fabricloader": ">=0.7.4",
+    "fabricloader": ">=0.16.9",
     "fabric": "*",
     "carpet": "*",
-    "minecraft": "1.16.x"
+    "minecraft": "1.20.1"
   },
   "suggests": {
     "flamingo": "*"
