@@ -30,7 +30,7 @@ public class CarpetAddonServer implements CarpetExtension {
         CarpetServer.settingsManager.parseSettingsClass(CarpetAddonSettings.class);
 
         // set-up a snooper to observe how rules are changing in carpet
-        CarpetServer.settingsManager.addRuleObserver( (serverCommandSource, currentRuleState, originalUserTest) ->
+        CarpetServer.settingsManager.registerRuleObserver( (serverCommandSource, currentRuleState, originalUserTest) ->
         {
             // here we will be snooping for command changes
         });
