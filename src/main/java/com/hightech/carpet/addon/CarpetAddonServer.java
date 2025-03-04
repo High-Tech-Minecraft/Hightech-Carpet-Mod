@@ -1,4 +1,4 @@
-package com.rubixdev.carpet.addon;
+package com.hightech.carpet.addon;
 
 import carpet.CarpetExtension;
 import carpet.CarpetServer;
